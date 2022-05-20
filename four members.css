@@ -1,0 +1,124 @@
+body{
+color:white;
+background-color: black;
+background-size:100%; 
+font-size:150%
+}
+#pawan{
+	padding-top: 50px; 
+	padding-left: 500px;
+}
+h1{
+text-align: center;
+margin-right: 30px;
+width: 20%;
+border-left:8px solid brown;
+border-right:8px solid brown;
+border-radius:55px;
+
+}
+
+#header{
+padding-top: 50px;
+background-image: url("services.jpg");
+padding-left:500px;
+text-align: center;
+padding-left: 30px;
+padding-top: 30px;
+margin-left: 500;
+}
+#example{
+background-image: url("services.jpg");
+background-repeat: no-repeat;
+background-position: right top;
+}
+
+h3{
+color:yellow; 
+font-size:30px;
+animation: animate 2.5s linear infinite;
+ } 
+  
+ @keyframes animate{
+   0%{
+     opacity: 0;
+   }
+   50%{
+     opacity: 2.0;
+   }
+   100%{
+     opacity: 0;
+   }
+ }
+#balraj{
+	text-align: center;
+	font-size: 100px;
+	font-color: black;
+	text-shadow: 6px 6px 8px white;
+}
+#journey{
+width: 500px;
+}
+
+#parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+#child {
+  display: inline-block;
+/*  border: 1px solid red;
+*/  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+/*
+#sukh{
+	width: 50%;
+	text-align: left;	
+
+}
+
+#img{
+width:50%;
+float: right;
+padding-left: 300px; 	
+}*/
+h1{
+text-align:center;
+}
+#sembhi{
+padding: 50px;
+margin: 150px;
+}
+.fas fa-cloud{
+background-color: white;
+}
+#sembhi1{
+text-align:center;
+font-size:100px;
+font-color:black;
+text-shadow:6px 6px 8px white;
+}
+#list li{
+display: inline;
+padding: 20px;
+background-color: grey;
+}
+#list li:hover{
+color: yellow;
+}
+#number{
+text-align: right;
+color: yellow;
+}
+#address{
+text-align: left;
+color: green;
+}
+#button{
+float: right;
+display: inline;
+background-color: green;
+}

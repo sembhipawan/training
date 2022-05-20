@@ -1,0 +1,13 @@
+body{
+/*background-color:orange;*/
+background-image: url("salonimage.jpg");
+backgound-image:no repeat;
+}
+h1{
+background-color:white;
+color:red;
+}
+#jasspreet{
+background-color:cyan;
+
+}
