@@ -105,7 +105,7 @@ text-shadow:6px 6px 8px white;
 display: inline;
 padding: 20px;
 background-color: grey;
-}
+} 
 #list li:hover{
 color: yellow;
 }
