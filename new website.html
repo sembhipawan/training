@@ -1,0 +1,70 @@
+<html>
+<head>
+	<meta charsey="UTF-8">
+	<meta http-eruiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Starbucks website</title>
+</head>
+<script>
+	function first() {
+	document.getElementById("slide1").src="starbucksbuild.jpg";
+}
+	function second() {
+	document.getElementById("slide1").src="starbuckscoffee.jpg";
+}
+	function third() {
+	document.getElementById("slide1").src="starbucksfrontdesk.jpg";
+
+}
+	setInterval(first,2000);
+	setInterval(second,4000);
+	setInterval(third,6000);
+</script>
+<style>
+	#main{
+		position: relative;
+		height: 800px;
+		width: 100%;
+	}
+	#slide1{
+		height:700px;
+		width: 100%;
+	}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+<link rel="stylesheet" href="starbucks.css">
+<body>
+<ul>
+  <li><a class="active" href="new website.html">Home</a></li>
+  <li><a href="starbucks menu.html">Menu</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About Us</a></li>
+</ul><br>
+	<div id="main">
+		<img src="starbucksimage.jpg" id="slide1">
+	</div>
+</body>
+</html>
