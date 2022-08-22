@@ -1,0 +1,12 @@
+.col{
+display:flex;
+width:auto;
+align-items:center;
+}
+.row2 p{
+background-color:green;width:500px;height:300px;font-size:30px;color:white;font-weight:
+900;padding-top:50px;text-align:center;margin-right:20px;
+}
+.row2 button{
+font-size:15px;margin:40px 10px 0 0;margin-left:5px;
+}
